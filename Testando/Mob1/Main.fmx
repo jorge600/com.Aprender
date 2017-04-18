@@ -1,0 +1,30 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Acesso Principal'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = DesktopCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object edtSenha: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Horizontal
+    TabOrder = 0
+    Position.Y = 152.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Digite Aqui...'
+  end
+  object edtUsuario: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 1
+    Size.Width = 640.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
